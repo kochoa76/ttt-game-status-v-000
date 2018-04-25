@@ -27,6 +27,6 @@ end
 end
 
 def full?(board)
-  board.detect do |token|
-    token.all? token =="X" | token =="O"
+  board.each do |token|
+  board.all? token == "X" | token == "O"
 end
