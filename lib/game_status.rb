@@ -30,5 +30,3 @@ def full?(board)
     token == "X" | token == "O"
   end
 end
-
-
