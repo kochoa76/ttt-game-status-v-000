@@ -32,5 +32,5 @@ token == "X" || token == "O"}
 end
 
 def draw?(board)
-  full? && !won? 
+  full? && !won?
 end
