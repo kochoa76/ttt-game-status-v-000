@@ -24,4 +24,11 @@ WIN_COMBINATIONS.detect do |combo|
  position_taken?(board, combo[0])
 
 end
+
+def full?(board)
+  board.all? do |token|
+    token == "X" | token == "O"
+  end
 end
+
+
