@@ -30,4 +30,3 @@ def full?(board)
   board.each do |token|
     token.all? token == "X" | token == "O"
 end
-
